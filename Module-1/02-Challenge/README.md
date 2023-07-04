@@ -9,14 +9,21 @@ This README provides an overview of the modifications made to the codebase to ad
 - What problem does it solve?
 - What did you learn?
 
+</br>
+
+
 ## Table of Contents (Optional)
 ---
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
 - [Modifications](#modifications)
 - [Usage](#usage)
+- [Development](#development)
 - [Credits](#credits)
 - [License](#license)
+- [Conclusion](#conclusion)
+
+</br>
 
 ## Modifications
 ---
@@ -53,13 +60,19 @@ By making these modifications and improvements, the webpage now adheres to acces
 
 ## Usage
 ---
-Demo of Marketing Agency Website. Currently, the only interactive portion is the navigtaio
+Demo of Marketing Agency Website. Currently, the only interactive portion is the horizontal navigation bar on the top, by clicking it takes you to appointed location on the webpage.
+
+</br>
+
 
 ## Development
 ---
 ### Folder Structure
 
-three major files of this project are the [Index.html](https://github.com/arsalanbardsiri/arsalan-challenges-uci-bootcamp/blob/main/Module-1/02-Challenge/Develop/index.html) which contains the structure,[style.css](https://github.com/arsalanbardsiri/arsalan-challenges-uci-bootcamp/blob/main/Module-1/02-Challenge/Develop/assets/css/style.css) for styling purposes. All the used graphics are from the images [folder](https://github.com/arsalanbardsiri/arsalan-challenges-uci-bootcamp/tree/main/Module-1/02-Challenge/Develop/assets/images)
+three major files of this project are the [Index.html](https://github.com/arsalanbardsiri/arsalan-challenges-uci-bootcamp/blob/main/Module-1/02-Challenge/Develop/index.html) which contains the structure,[style.css](https://github.com/arsalanbardsiri/arsalan-challenges-uci-bootcamp/blob/main/Module-1/02-Challenge/Develop/assets/css/style.css) for styling purposes. All the used graphics are from the images [folder](https://github.com/arsalanbardsiri/arsalan-challenges-uci-bootcamp/tree/main/Module-1/02-Challenge/Develop/assets/images).
+
+</br>
+
 
 ### Built With
 
@@ -67,34 +80,35 @@ three major files of this project are the [Index.html](https://github.com/arsala
 
 [![CSS](https://img.shields.io/badge/CSS-grey?style=for-the-badge&logo=css3)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
+</br>
 
 ## Credits
-
+---
 N/A
 
+</br>
+
+
 ## License
-
-Please refer to the LICENSE in the repo. 
-
-[![License](https://img.shields.io/github/license/arsalanbardsiri/prework-study-guide.svg?color=blue)](https://github.com/arsalanbardsiri/prework-study-guide/blob/main/LICENSE)
 ---
+Please refer to the LICENSE in the repository.
 
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
+[![License](https://img.shields.io/github/license/arsalanbardsiri/arsalan-challenges-uci-bootcamp.svg?color=blue)](https://github.com/arsalanbardsiri/arsalan-challenges-uci-bootcamp/blob/main/LICENSE)
 
-## Badges
+</br>
 
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+## Conclusion
+---
+<strong>In conclusion, the modifications made to the existing code include:</strong>
 
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+1. Implementation of semantic HTML elements to improve the accessibility and structure of the webpage.
+2. Addition of alt attributes to the icon and image elements for better accessibility.
+3. Ensuring a logical structure of HTML elements independent of styling and positioning.
+4. Reordering the heading attributes to follow a sequential order.
+5. Providing a concise and descriptive title for the webpage.
+6. Consolidation and organization of CSS selectors and properties to follow a semantic structure.
+7. Proper commenting of the CSS file for better code readability and maintainability.
+8. Addition of media queries to ensure responsiveness and consistent styling on different screen sizes.
+9. Following the Scout Rule by leaving the code in a cleaner state than before.
 
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+These modifications have improved the overall accessibility, structure, and visual appeal of the webpage while maintaining proper coding practices. The application's links function correctly, and the CSS file is well-organized and documented. These enhancements ensure a better user experience and make the codebase more maintainable in the long run.
