@@ -1,8 +1,8 @@
-# <Your-Project-Title>
+# Accessibility and Design modification
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+This README provides an overview of the modifications made to the codebase to address the ticket. It highlights the key changes and improvements implemented.
 
 - What was your motivation?
 - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
@@ -13,7 +13,7 @@ Provide a short description explaining the what, why, and how of your project. U
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
-- [Installation](#installation)
+- [Modifications Made](#Modifications-Made)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)

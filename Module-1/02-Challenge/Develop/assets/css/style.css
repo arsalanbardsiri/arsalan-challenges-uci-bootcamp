@@ -10,6 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
+
 /* General setting of header attributes */
 header {
     padding: 20px;
@@ -18,9 +19,10 @@ header {
     color: #ffffff;
 }
 
+/* Styling for main name on top */
 header h1 {
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
     align-items: center;
     font-size: 48px;
 }
@@ -29,62 +31,40 @@ header .seo {
     color: #d9dcd6;
 }
 
+/* Navigation bar
+flexible with the screen size
+also  on the right side*/
 nav {
     display: flex;
     justify-content: flex-end;
-    align-items: flex-start;
+    align-items: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
 nav ul {
     list-style-type: none;
-
 }
 
+/* Inline order for the navigation */
 nav ul li {
-    display: inline-flex;
+    display: inline;
     margin-left: 25px;
 }
 
+/* Navigation bar elements */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Font size for the main content */
 p {
     font-size: 16px;
 }
 
-.background-picture {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.float-left {
-    /* display: flex;
-    justify-content: flex-start;
-    align-items: center; */
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.benefits {
+/* general styling settings for the Side bar an its content */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -95,54 +75,49 @@ main {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
+/* general overall style for The main content  */
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
+/* Footer the bottom of webpage */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
+footer h2 {
+    font-size: 20px;
 }
 
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
+/* Background cover picture beneath nav bar */
+.background-picture {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+
+/* search-engine-optimization, online-reputation-management */
+.float-left {
+    float: left;
+    margin-right: 25px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+/* online-reputation-management */
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/* Styling of the content in the main element */
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -155,48 +130,129 @@ main {
     display: block;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
+.search-engine-optimization img,
+.online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+.search-engine-optimization h2,
+.online-reputation-management h2,
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+/* Styling of the content in the aside element */
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-lead h3,
+.benefit-brand h3,
+.benefit-cost h3 {
+    margin-bottom: 10px;
     text-align: center;
 }
 
-footer h2 {
-    font-size: 20px;
+.benefit-lead img,
+.benefit-brand img,
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 
-/* Media Queries */
+
+
+/* To keep things still in order
+when hitting the 935px width up until 695 */
 @media (max-width: 935px) {
     body {
         display: block;
         width: 100%;
+    }
+
+    main {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    aside {
+        float: none;
+        width: 100%;
+    }
+}
+
+/* Elements would again get out of the order
+this will keep the styling on even smaller screens
+there should be no problem up until 265px*/
+@media (max-width: 695px) {
+    header h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    nav {
+        justify-content: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .background-picture {
+        height: 400px;
+    }
+
+    .flex-container {
+        display: block;
+    }
+
+    .search-engine-optimization,
+    .online-reputation-management,
+    .social-media-marketing {
+        padding: 20px;
+    }
+
+    .float-left,
+    .float-right {
+        float: none;
+        margin: 0 auto;
+    }
+
+    aside {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .search-engine-optimization,
+    .online-reputation-management,
+    .social-media-marketing {
+        padding: 20px;
+        text-align: center;
+        height: auto;
+    }
+
+    .search-engine-optimization img,
+    .online-reputation-management img,
+    .social-media-marketing img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
     }
 }
