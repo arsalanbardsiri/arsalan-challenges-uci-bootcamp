@@ -60,6 +60,8 @@ By making these modifications and improvements, the webpage now adheres to acces
 ---
 Demo of Marketing Agency Website. Currently, the only interactive portion is the horizontal navigation bar on the top, by clicking it takes you to appointed location on the webpage.
 
+![webpage-full-view](./Develop/assets/images/webpage-full-view.jpeg)
+
 </br>
 
 ## Development
