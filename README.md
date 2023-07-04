@@ -5,8 +5,6 @@
 ---
 This README provides an overview of the modifications made to the codebase to address the ticket. It highlights the key changes and improvements implemented.
 
-</br>
-
 ## Table of Contents (Optional)
 
 ---
@@ -18,8 +16,6 @@ If your README is long, add a table of contents to make it easy for users to fin
 - [Credits](#credits)
 - [License](#license)
 - [Conclusion](#conclusion)
-
-</br>
 
 ## Modifications
 
@@ -60,9 +56,7 @@ By making these modifications and improvements, the webpage now adheres to acces
 ---
 Demo of Marketing Agency Website. Currently, the only interactive portion is the horizontal navigation bar on the top, by clicking it takes you to appointed location on the webpage.
 
-![webpage-full-view](./Develop/assets/images/webpage-full-view.jpeg)
-
-</br>
+![webpage-full-view](./assets/images/webpage-full-view.jpeg)
 
 ## Development
 
@@ -70,9 +64,7 @@ Demo of Marketing Agency Website. Currently, the only interactive portion is the
 
 ### Folder Structure
 
-three major files of this project are the [Index.html](https://github.com/arsalanbardsiri/arsalan-challenges-uci-bootcamp/blob/main/Module-1/02-Challenge/Develop/index.html) which contains the structure,[style.css](https://github.com/arsalanbardsiri/arsalan-challenges-uci-bootcamp/blob/main/Module-1/02-Challenge/Develop/assets/css/style.css) for styling purposes. All the used graphics are from the images [folder](https://github.com/arsalanbardsiri/arsalan-challenges-uci-bootcamp/tree/main/Module-1/02-Challenge/Develop/assets/images).
-
-</br>
+three major files of this project are the [Index.html](https://github.com/arsalanbardsiri/arsalan-module-1-challeng-uci-bootcamp/blob/main/index.html) which contains the structure,[style.css](https://github.com/arsalanbardsiri/arsalan-module-1-challeng-uci-bootcamp/blob/main/assets/css/style.css) for styling purposes. All the used graphics are from the images [folder](https://github.com/arsalanbardsiri/arsalan-module-1-challeng-uci-bootcamp/tree/main/assets/images).
 
 ### Built With
 
@@ -80,23 +72,17 @@ three major files of this project are the [Index.html](https://github.com/arsala
 
 [![CSS](https://img.shields.io/badge/CSS-grey?style=for-the-badge&logo=css3)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-</br>
-
 ## Credits
 
 ---
 N/A
-
-</br>
 
 ## License
 
 ---
 Please refer to the LICENSE in the repository.
 
-[![License](https://img.shields.io/github/license/arsalanbardsiri/arsalan-challenges-uci-bootcamp.svg?color=blue)](https://github.com/arsalanbardsiri/arsalan-challenges-uci-bootcamp/blob/main/LICENSE)
-
-</br>
+[![License](https://img.shields.io/github/license/arsalanbardsiri/arsalan-module-1-challeng-uci-bootcamp.svg?color=blue)](https://github.com/arsalanbardsiri/arsalan-module-1-challeng-uci-bootcamp/blob/main/LICENSE)
 
 ## Conclusion
 
