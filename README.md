@@ -2,12 +2,10 @@
 
 ## Description
 
----
 This README provides an overview of the modifications made to the codebase to address the ticket. It highlights the key changes and improvements implemented.
 
 ## Table of Contents
 
----
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
 - [Modifications](#modifications)
@@ -19,7 +17,6 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Modifications
 
----
 The following modifications were made to the codebase to meet the given requirements and improve the overall quality of the webpage:
 
 1. <strong>Ensured Accessibility Standards:</strong>
@@ -53,14 +50,11 @@ By making these modifications and improvements, the webpage now adheres to acces
 
 ## Usage
 
----
 Demo of Marketing Agency Website. Currently, the only interactive portion is the horizontal navigation bar on the top, by clicking it takes you to appointed location on the webpage.
 
 ![webpage-full-view](./assets/images/webpage-full-view.jpeg)
 
 ## Development
-
----
 
 ### Folder Structure
 
@@ -74,19 +68,16 @@ three major files of this project are the [Index.html](https://github.com/arsala
 
 ## Credits
 
----
 N/A
 
 ## License
 
----
 Please refer to the LICENSE in the repository.
 
 [![License](https://img.shields.io/github/license/arsalanbardsiri/arsalan-module-1-challeng-uci-bootcamp.svg?color=blue)](https://github.com/arsalanbardsiri/arsalan-module-1-challeng-uci-bootcamp/blob/main/LICENSE)
 
 ## Conclusion
 
----
 <strong>In conclusion, the modifications made to the existing code include:</strong>
 
 1. Implementation of semantic HTML elements to improve the accessibility and structure of the webpage.
