@@ -100,3 +100,6 @@ Please refer to the LICENSE in the repository.
 9. Following the Scout Rule by leaving the code in a cleaner state than before.
 
 These modifications have improved the overall accessibility, structure, and visual appeal of the webpage while maintaining proper coding practices. The application's links function correctly, and the CSS file is well-organized and documented. These enhancements ensure a better user experience and make the codebase more maintainable in the long run.
+
+![Image](https://img.shields.io/badge/Completed-Yes-success)
+![Image](https://img.shields.io/badge/Working-Yes-success)
